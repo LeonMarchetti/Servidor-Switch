@@ -1,0 +1,38 @@
+{           // Servidores
+                    // Bases de Datos
+    "servidores" : [
+        {   // Postgres en MV Debian 9
+            "nombre": "MV_Postgres",
+            "activo": false,
+            "tipo": "p",
+            "host": "192.168.1.45",
+            "puerto": 5432,
+            "bases_de_datos": [
+                {
+                    "base": "Facturacion",
+                    "usuario": "postgres",
+                    "contraseña": ""
+                }
+            ]
+        },
+        {   // MariaDB en XAMPP en Notebook:
+            "nombre": "XAMPP",
+            "activo": true,
+            "tipo": "m",
+            "host": "127.0.0.1",
+            "puerto": 3306,
+            "bases_de_datos": [
+                {
+                    "base": "Facturacion",
+                    "usuario": "root",
+                    "contraseña": ""
+                },
+                {
+                    "base": "pruebajpa",
+                    "usuario": "root",
+                    "contraseña": ""
+                }
+            ]
+        }
+    ]
+}
