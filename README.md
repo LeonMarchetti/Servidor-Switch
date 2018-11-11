@@ -70,8 +70,8 @@ resultado y lo muestra en forma de tabla.
 Se cierra el cliente usando el comando **x**.
 
 ## Compilación de ejecutables
-* Clonar repositorio desde https://github.com/LeonMarchetti/C.git 
-o descargar como ZIP con https://github.com/LeonMarchetti/C/archive/master.zip
+* Clonar repositorio desde https://github.com/LeonMarchetti/Servidor-Switch.git 
+o descargar como ZIP con https://github.com/LeonMarchetti/Servidor-Switch/archive/master.zip
 * Ejecutar **make**. Esto crea las carpetas **run** con los archivos 
 ejecutables y **object** con los archivos objeto. 
     * Es posible tener que modificar el archivo **Makefile** dependiendo de 
