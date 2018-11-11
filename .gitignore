@@ -1,0 +1,7 @@
+# Ignorar ejecutables y objetos:
+run/
+debug/
+object/
+
+# Ignorar stackdumps
+*.stackdump
